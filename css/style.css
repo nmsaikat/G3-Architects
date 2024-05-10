@@ -84,6 +84,7 @@ main {
 .teams_container {
   display: flex;
   align-items: center;
+  padding: 30px 0;
 }
 .teams_img_container {
   display: grid;
