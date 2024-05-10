@@ -1,0 +1,40 @@
+/* Mobile Device Responsive */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+
+  .btn_primary {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+  .nav_title {
+    font-size: 1rem;
+  }
+  nav li {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  /* Banner Styles */
+  .banner_title {
+    font-size: 1rem;
+  }
+  .banner_description {
+    font-size: 12px;
+  }
+}
+
+/* Tablet Or Medium Device */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 10px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
