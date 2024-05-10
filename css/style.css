@@ -4,3 +4,62 @@
 * {
   font-family: "Work Sans", sans-serif;
 }
+
+.btn_primary {
+  padding: 10px 25px;
+  border: 1px solid #ff900e;
+  background-color: #ff900e;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.btn_primary:hover {
+  background: transparent;
+  color: #ff900e;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff4e7;
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+
+/* Banner Styles */
+.banner_content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner_title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner_description {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #727272;
+}
