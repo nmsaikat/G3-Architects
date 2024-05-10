@@ -9,7 +9,8 @@
     font-size: 14px;
   }
 
-  nav {
+  nav,
+  .teams_container {
     flex-direction: column;
   }
   .nav_title {
@@ -19,7 +20,26 @@
     font-size: 14px;
     margin-right: 10px;
   }
-
+  main {
+    margin: 10px auto;
+  }
+  /* Teams Container Styles */
+  .teams_img_container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .teams_content {
+    width: 100%;
+    padding-left: 0px;
+    margin: 10px 0px;
+  }
+  .teams_title {
+    font-size: 1.2rem;
+  }
+  .teams_content .teams_description {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
   /* Banner Styles */
   .banner_title {
     font-size: 1rem;
