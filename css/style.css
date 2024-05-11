@@ -134,3 +134,29 @@ main {
   width: 50%;
   line-height: 1.3rem;
 }
+
+.facts_card_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facts_card_container .card {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.facts_card_container .card_stats {
+  font-weight: 600;
+  color: #424242;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.facts_card_container .card_title {
+  font-weight: 600;
+  color: #727272;
+  font-size: 1rem;
+  margin: 0;
+}
