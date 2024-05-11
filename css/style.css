@@ -239,3 +239,16 @@ main {
   justify-content: space-between;
   padding: 20px 0;
 }
+
+/* Footer style */
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
+footer p {
+  background-color: #fff4e7;
+  font-size: 1rem;
+  padding: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
