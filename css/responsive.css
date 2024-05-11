@@ -11,7 +11,8 @@
 
   nav,
   .teams_container,
-  .facts_card_container {
+  .facts_card_container,
+  .features {
     flex-direction: column;
   }
   .nav_title {
@@ -78,6 +79,22 @@
   .sponspors_img_container img {
     width: 60%;
   }
+
+  /* features_content */
+  .features_content {
+    width: 100%;
+  }
+  .features_img {
+    width: 100%;
+  }
+  .features_img img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .ten_years_badge {
+    max-width: 90%;
+    position: static;
+  }
 }
 
 /* Tablet Or Medium Device */
@@ -87,5 +104,23 @@
   }
   nav {
     flex-direction: column;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+  .features_content {
+    width: 100%;
+  }
+  .features_img {
+    width: 100%;
+  }
+  .features_img img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sponspors_img_container img {
+    width: 10%;
   }
 }

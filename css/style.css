@@ -154,6 +154,7 @@ main {
 }
 .features_img img {
   width: 100%;
+  margin-left: 50px;
 }
 
 .ten_years_badge {
@@ -162,6 +163,9 @@ main {
   color: #fff;
   width: 242px;
   padding: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
 }
 .ten_years_badge h2 {
   font-size: 3rem;
